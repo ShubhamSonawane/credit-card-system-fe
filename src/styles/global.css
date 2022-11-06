@@ -1,0 +1,109 @@
+@tailwind base;
+
+a {
+  @apply text-blue-700;
+}
+
+a:hover {
+  @apply border-b-2 border-blue-700;
+}
+
+@tailwind components;
+
+@tailwind utilities;
+
+.content p {
+  @apply my-6;
+}
+
+.content ul {
+  @apply my-6;
+}
+
+input[type="text"]{
+  border: 1px solid #cccccc;
+}
+
+.submit-button:disabled {
+  cursor: not-allowed;
+  background-color: #D1D5DB;
+  color: #111827;
+}
+
+.submit-button:disabled:hover {
+  background-color: #9CA3AF;
+}
+
+.credit-card {
+  max-width: 920px;
+}
+
+h1 {
+  border-bottom: 1px solid white;
+  color: #3d3d3d;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  padding: 10px;
+  text-align: center;
+}
+
+form {
+  background: white;
+  border: 1px solid #dedede;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0 auto;
+  max-width: 500px;
+  padding: 30px 50px;
+}
+
+input {
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 100%;
+}
+
+label {
+  color: #3d3d3d;
+  display: block;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.error {
+  color: red;
+  font-family: sans-serif;
+  font-size: 12px;
+  height: 30px;
+}
+
+.submitButton {
+  background-color: #6976d9;
+  color: white;
+  font-family: sans-serif;
+  font-size: 14px;
+  margin: 20px 0px;
+}
+
+table {
+  border-spacing: 0;
+  border: 1px solid #040000;
+  width: 100%;
+}
+
+th {
+  padding: 15px;
+  border: 1px solid #040000;
+}
+
+td {
+  padding: 5px 10px;
+  border: 1px solid #040000;
+}
